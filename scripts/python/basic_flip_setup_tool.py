@@ -3,7 +3,7 @@ def create_flip_setup():
     FLIP Quick Setup Tool
     Crea automáticamente un setup base de simulación de fluidos FLIP en Houdini.
     Uso: ejecutar desde Python Shell o como Shelf Tool.
-    Autor: Jonathan Escalera — Project Kaan pipeline tools
+    Autor: Jonathan Escalera — Houdini Automation TOols
     """
     
     import hou

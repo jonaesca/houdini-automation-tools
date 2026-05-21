@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shelfDocument>
+  <!-- This file contains definitions of shelves, toolbars, and tools.
+ It should not be hand-edited when it is being used by the application.
+ Note, that two definitions of the same element are not allowed in
+ a single file. -->
+
+  <tool name="my_setup_flip" label="My Flip Setup" icon="$HIP/Pictures/images.jpeg">
+    <script scriptType="python"><![CDATA[import basic_flip_setup_tool
+import importlib
+
+# Forzamos a Houdini a leer cualquier cambio que hagas en VS Code
+importlib.reload(basic_flip_setup_tool)
+
+# Ejecutamos tu funciÃ³n base
+basic_flip_setup_tool.create_flip_setup()]]></script>
+  </tool>
+</shelfDocument>
