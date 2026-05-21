@@ -6,7 +6,6 @@ def create_flip_setup():
     Autor: Jonathan Escalera — Project Kaan pipeline tools
     """
     
-    #Crea setup base de FLIP fluids en /obj
     import hou
 
     #Context reference
@@ -56,6 +55,3 @@ def create_flip_setup():
 
     #Dopnet move to good pos
     dopnet.layoutChildren()
-
-# Llamamos a la función para que se ejecute
-create_flip_setup()
