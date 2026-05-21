@@ -9,10 +9,10 @@
     <script scriptType="python"><![CDATA[import basic_flip_setup_tool
 import importlib
 
-# Forzamos a Houdini a leer cualquier cambio que hagas en VS Code
+# Force Houdini to reload the module to catch any updates from VS Code
 importlib.reload(basic_flip_setup_tool)
 
-# Ejecutamos tu funciÃ³n base
+# Execute the core setup function
 basic_flip_setup_tool.create_flip_setup()]]></script>
   </tool>
 </shelfDocument>
